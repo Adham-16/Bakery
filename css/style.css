@@ -1,0 +1,220 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.clr {
+  clear: both;
+}
+/* <!-- landing --> */
+.landing .container {
+  height: 100vh;
+  background-image: url(../images/drew-coffman-1872.jpg);
+  background-size: cover;
+  background-position: 0% 40%;
+}
+.header .menu {
+  padding: 30px 50px 0;
+  margin: 0;
+}
+.header .menu .menu-item {
+  font-family: "Alegreya", serif;
+  list-style-type: none;
+  padding-right: 30px;
+  float: right;
+  font-size: 18px;
+}
+.header .menu li a {
+  text-decoration: none;
+  color: white;
+}
+.header nav ul li.img-item {
+  width: 200px;
+  float: left;
+  list-style-type: none;
+}
+.header nav ul .img-item img {
+  width: 100%;
+}
+.container .welcome {
+  text-align: center;
+  color: white;
+}
+.container .welcome .Welcome-to {
+  font-size: 22px;
+  font-family: "Alegreya Sans", sans-serif;
+}
+.container .welcome .Family {
+  font-size: 76px;
+  font-family: "Alegreya", serif;
+  margin: 0;
+}
+.container .welcome p {
+  font-size: 24px;
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 1.2;
+}
+.container .welcome button {
+  font-family: "Alegreya Sans", sans-serif;
+  padding: 20px;
+  width: 140px;
+  border-radius: 4px;
+  background-color: #8e7754;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.container .welcome .button2 {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+/* <!-- Our Location --> */
+
+.Our-Location {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.Our-Location .left {
+  float: left;
+  text-align: left;
+  width: 45%;
+  display: inline;
+  padding-left: 50px;
+}
+.Our-Location .right {
+  float: right;
+  width: 50%;
+  display: inline;
+  /* padding-right: 30px; */
+}
+.Our-Location .right img {
+  width: 80%;
+}
+.Our-Location .left p {
+  font-size: 32px;
+}
+
+.Our-Location .left .contant {
+  color: #686868;
+  font-family: "Alegreya Sans", sans-serif;
+  line-height: 32px;
+  font-size: 17px;
+}
+.Contact .details {
+  width: 50px;
+}
+.Contact .details img {
+  width: 100%;
+  display: inline-block;
+}
+
+/* <!-- Contact Information --> */
+.Contact {
+  padding: 20px 20px;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+}
+.Contact .left {
+  float: left;
+  width: 40%;
+}
+.Contact .right {
+  float: right;
+  width: 50%;
+}
+.Contact .left h2 {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.Contact .left .text {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 14px;
+  color: #686868;
+  line-height: 1.8;
+}
+.Contact .left .details {
+  width: 100%;
+}
+.Contact .left .details p {
+  display: inline;
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 14px;
+  color: #686868;
+  line-height: 1.8;
+}
+.Contact .left .details img {
+  width: 50px;
+}
+.Contact .right .img img {
+  width: 500px;
+}
+/* <!-- About us --> */
+.About-us .container {
+  background-color: #403d38;
+  color: white;
+  padding: 10px;
+}
+.About-us .first-section {
+  float: right;
+  width: 25%;
+}
+.About-us .first-section .pragraph p {
+  width: 80%;
+  color: #969696;
+  line-height: 1.6;
+}
+
+.About-us .second-section {
+  float: right;
+  width: 23%;
+}
+.About-us .second-section ul li {
+  list-style-type: none;
+  color: #969696;
+  padding: 10px;
+  width: 220px;
+  line-height: 1.6;
+}
+.About-us .third-section {
+  float: right;
+  width: 22%;
+}
+.About-us .third-section ul li {
+  line-height: 1.9;
+  padding: 10px;
+  color: #969696;
+  list-style-type: none;
+}
+.About-us .fourth-section {
+  float: right;
+  width: 25%;
+}
+.About-us .fourth-section ul li {
+  line-height: 1.9;
+  padding: 10px;
+  width: 200px;
+  color: #969696;
+  list-style-type: none;
+}
+.About-us .fourth-section ul li img {
+  width: 30px;
+}
+.last-section {
+  background-color: #353330;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.last-section {
+  color: #777;
+  font-size: 14px;
+}
+.last-section .social-media img {
+  width: 3%;
+  background-color: #484540;
+  border-radius: 50%;
+}
