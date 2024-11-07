@@ -68,6 +68,12 @@ body {
 .container .welcome .button2 {
   background-color: transparent;
   border: 2px solid #fff;
+  transition: all 0.3s;
+}
+.container .welcome .button2:hover {
+  background-color: #8e7754;
+  color: #fff;
+  border: #8e7754;
 }
 /* <!-- Our Location --> */
 
@@ -213,8 +219,13 @@ body {
   color: #777;
   font-size: 14px;
 }
-.last-section .social-media img {
-  width: 3%;
-  background-color: #484540;
+.last-section .social-media a i {
+  background-color: #353330;
+  color: #8f7755;
   border-radius: 50%;
+  font-size: 30px;
+  transition: all 0.3s;
+}
+.last-section .social-media a i:hover {
+  color: #fff;
 }
